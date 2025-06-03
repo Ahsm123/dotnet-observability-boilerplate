@@ -1,18 +1,18 @@
 #Setup
 
-WSL/Linux/macOS
+WSL/Linux/macOS<br />
 
-``git clone https://github.com/Ahsm123/dotnet-observability-boilerplate``
-``cd dotnet-observability-boilerplate/infrastructure``
-``-/start.sh``
+``git clone https://github.com/Ahsm123/dotnet-observability-boilerplate``<br />
+``cd dotnet-observability-boilerplate/infrastructure``<br />
+``-/start.sh``<br />
 
-Windows
+Windows<br />
 
-``git clone https://github.com/your-username/dotnet-observability-boilerplate``
-``cd dotnet-observability-boilerplate\infrastructure``
-``docker-compose up -d``
+``git clone https://github.com/your-username/dotnet-observability-boilerplate``<br />
+``cd dotnet-observability-boilerplate\infrastructure``<br />
+``docker-compose up -d``<br />
 
-Grafana: http://localhost:3000 (admin/admin)
-Prometheus: http://localhost:9090
-Loki: http://localhost:3100/ready
-Tempo: http://localhost:3200/ready
+Grafana: http://localhost:3000 (admin/admin)<br />
+Prometheus: http://localhost:9090<br />
+Loki: http://localhost:3100/ready<br />
+Tempo: http://localhost:3200/ready<br />

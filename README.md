@@ -8,7 +8,7 @@ WSL/Linux/macOS<br />
 
 Windows<br />
 
-``git clone https://github.com/your-username/dotnet-observability-boilerplate``<br />
+``git clone https://github.com/Ahsm123/dotnet-observability-boilerplate``<br />
 ``cd dotnet-observability-boilerplate\infrastructure``<br />
 ``docker-compose up -d``<br />
 

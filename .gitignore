@@ -1,0 +1,24 @@
+# Docker
+.env
+docker-compose.override.yml
+
+# Grafana
+infrastructure/grafana/data/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# .NET
+bin/
+obj/
+*.user

@@ -1,0 +1,21 @@
+server:
+  http_listen_port: 3200
+
+distributor:
+  receivers:
+    jaeger:
+      protocols:
+        thrift_http:
+          endpoint: 0.0.0.0:14268
+
+ingester:
+  trace_idle_period: 10s
+  max_block_bytes: 1_000_000
+
+storage:
+  trace:
+    backend: local
+    local:
+      path: /tmp/tempo/traces
+    wal:
+      path: /tmp/tempo/wal
